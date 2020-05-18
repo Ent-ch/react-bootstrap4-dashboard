@@ -13,7 +13,7 @@ export default function TopNavbar(props){
                 <FontAwesomeIcon onClick={props.actionBar} icon={faBars} />
             </div>
             <div className="title" >
-                Cloud four - Productions
+                Demo dashboard
             </div>
             <div className="actions" >
                 <div className="profile" >

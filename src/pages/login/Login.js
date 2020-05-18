@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './../../assets/logo.svg';
+import logo from './../../assets/logo192.png';
 import './Login.css';
 import Button from 'react-bootstrap-button-loader';
 import ToastNotification from '../../utils/ToastNotification';
@@ -12,7 +12,7 @@ import Form from 'react-bootstrap/Form';
 
 export default function Login(props){
   
-  const [login, setLogin] = useState({email:'mateus_nogol@outook.com',password:'12345'});
+  const [login, setLogin] = useState({email:'user1@gmail.com',password:'12345'});
   const [loading, setLoading] = useState(false);
   const [redirect, setRedirect] = useState(false);
   
@@ -20,13 +20,11 @@ export default function Login(props){
     {
       field: 'email',
       method: 'isEmail',
-      message: 'E-mail é obrigatorio!',
       validWhen: true
     },
     {
       field: 'password',
       method: 'isEmpty',
-      message: 'Senha é obrigatorio!',
       validWhen: false
     }
   ]);
@@ -63,7 +61,7 @@ export default function Login(props){
           <Form.Group>
             <Form.Control value={login.password} onChange={(e) => setLogin({...login,password: e.target.value})} name="password" className="form-login" type="password" placeholder="Password" />
           </Form.Group>
-          <Button loading={loading} className="btn-library btn-login" type="submit" >Acessar</Button>
+          <Button loading={loading} className="btn-library btn-login" type="submit" >Log-in</Button>
         </Form>
       </div>
       <ToastContainer />
