@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32727de0.chunk.css",
+    "main.js": "/static/js/main.4caaf892.chunk.js",
+    "main.js.map": "/static/js/main.4caaf892.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.3a6bdb62.js",
+    "runtime~main.js.map": "/static/js/runtime~main.3a6bdb62.js.map",
+    "static/css/2.1bfd5170.chunk.css": "/static/css/2.1bfd5170.chunk.css",
+    "static/js/2.898ff07a.chunk.js": "/static/js/2.898ff07a.chunk.js",
+    "static/js/2.898ff07a.chunk.js.map": "/static/js/2.898ff07a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a4823c60d00ceb9f2233ff7cdb975c06.js": "/precache-manifest.a4823c60d00ceb9f2233ff7cdb975c06.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1bfd5170.chunk.css.map": "/static/css/2.1bfd5170.chunk.css.map",
+    "static/css/main.32727de0.chunk.css.map": "/static/css/main.32727de0.chunk.css.map",
+    "static/media/SideBar.css": "/static/media/background-cloud.9323b354.jpg"
+  }
+}
